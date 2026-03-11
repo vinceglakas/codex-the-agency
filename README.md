@@ -2,9 +2,7 @@
 
 **A complete team of AI specialists, built for the OpenAI Codex app.**
 
-Inspired by [agency-agents](https://github.com/msitarzewski/agency-agents) — rewritten from the ground up for the Codex desktop app's native Skills system.
-
-Drop a specialist into any Codex session. Frontend wizard. Growth hacker. Reddit ninja. App Store optimizer. Security engineer. They're all here — with personality, process, and real deliverables.
+Drop a specialist into any Codex session and get deep expertise with personality, process, and real deliverables — not generic prompts.
 
 ---
 
@@ -88,12 +86,6 @@ cp agents-md/saas-startup.md YourProject/AGENTS.md
 | `saas-startup.md` | Next.js SaaS with auth, payments, dashboard |
 | `fullstack-web.md` | Full-stack web apps |
 | `marketing-focused.md` | GTM, content, launch campaigns |
-
----
-
-## Credits
-
-Built on the shoulders of [agency-agents](https://github.com/msitarzewski/agency-agents) by [@msitarzewski](https://github.com/msitarzewski). Original concept, rewritten for the Codex app.
 
 ---
 
