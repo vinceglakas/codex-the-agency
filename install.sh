@@ -35,7 +35,7 @@ for category_dir in "$SKILLS_DIR"/*/; do
   for skill_dir in "$category_dir"*/; do
     if [ -d "$skill_dir" ]; then
       skill=$(basename "$skill_dir")
-      cp -r "$skill_dir" "$INSTALL_PATH/$category/"
+      cp -r "${skill_dir%/}" "$INSTALL_PATH/$category/"
       echo "  ✅ $category/$skill"
       SKILL_COUNT=$((SKILL_COUNT + 1))
     fi
